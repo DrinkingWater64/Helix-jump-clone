@@ -20,7 +20,7 @@ public class ScreenControl : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
     public void OnDrag(PointerEventData eventData)
     {
         _rotationVelocity = eventData.delta.x * _rotationSpeed;
-        transform.Rotate(Vector3.back, -_rotationVelocity, Space.Self);
+        transform.Rotate(Vector3.up, -_rotationVelocity, Space.Self);
     }
 
     public void OnEndDrag(PointerEventData eventData)
@@ -44,7 +44,7 @@ public class ScreenControl : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
                 Mathf.Sign(_rotationVelocity)*_rotationVelocity
                 );
             _rotationVelocity -= deltaVelocity;
-            transform.Rotate(Vector3.back, -_rotationVelocity, Space.Self);
+            transform.Rotate(Vector3.up, -_rotationVelocity, Space.Self);
         }
     }
 }
