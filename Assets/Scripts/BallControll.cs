@@ -24,10 +24,25 @@ public class BallControll : MonoBehaviour
     {
         if (_canJump)
         {
-            _rb.AddForce(Vector3.up * _force);
-            _canJump = false;
-            StartCoroutine(WaitToJump());
+            if (collision.gameObject.CompareTag("safe"))
+            {
+                Debug.Log("safe");
+                _rb.AddForce(Vector3.up * _force);
+                _canJump = false;
+                StartCoroutine(WaitToJump());
+            }
+            if (collision.gameObject.CompareTag("danger"))
+            {
+                Debug.Log("game over");
+                Time.timeScale = 0;
+            }
+            if (collision.gameObject.CompareTag("end"))
+            {
+                Debug.Log("Finished");
+            }
         }
+
+
     }
 
     IEnumerator WaitToJump()
