@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - safe
+  - danger
+  - end
   layers:
   - Default
   - TransparentFX

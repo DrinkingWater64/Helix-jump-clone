@@ -34,7 +34,6 @@ public class BallControll : MonoBehaviour
             if (collision.gameObject.CompareTag("danger"))
             {
                 Debug.Log("game over");
-                Time.timeScale = 0;
             }
             if (collision.gameObject.CompareTag("end"))
             {

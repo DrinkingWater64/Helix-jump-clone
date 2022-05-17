@@ -252,6 +252,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0a579c79c0e4c649890a31f8f68264f, type: 2}
+    - target: {fileID: 1336348081598118353, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 1570973149279867454, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 3001836051576568960, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
     - target: {fileID: 3650261558816218453, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -260,10 +276,22 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0a579c79c0e4c649890a31f8f68264f, type: 2}
+    - target: {fileID: 5496808344007236400, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
     - target: {fileID: 5519630324721463344, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0a579c79c0e4c649890a31f8f68264f, type: 2}
+    - target: {fileID: 5629015454453107569, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 6040644284505637114, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
     - target: {fileID: 6133546224478005924, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -272,6 +300,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0a579c79c0e4c649890a31f8f68264f, type: 2}
+    - target: {fileID: 6312171980364747237, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
     - target: {fileID: 6814491297056372350, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -340,10 +372,26 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0a579c79c0e4c649890a31f8f68264f, type: 2}
+    - target: {fileID: 8025147113576452853, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 8161863251971653421, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
     - target: {fileID: 8385685703854813984, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f0a579c79c0e4c649890a31f8f68264f, type: 2}
+    - target: {fileID: 8866825112732423486, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
+    - target: {fileID: 9180963935329260984, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: end
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
 --- !u!1 &411029227
@@ -480,8 +528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68eedff1d8c4004458ed4cfe8057825d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rotateSpeed: 0
-  moveX: 0
 --- !u!1001 &659127675
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -496,6 +542,10 @@ PrefabInstance:
     - target: {fileID: 489742905003137063, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_Name
       value: ring (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: danger
       objectReference: {fileID: 0}
     - target: {fileID: 3001836051576568960, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_IsActive
@@ -684,6 +734,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ring (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: danger
+      objectReference: {fileID: 0}
     - target: {fileID: 6814491297056372350, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -800,6 +854,10 @@ PrefabInstance:
     - target: {fileID: 1570973149279867454, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: danger
       objectReference: {fileID: 0}
     - target: {fileID: 3001836051576568960, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_IsActive
@@ -1006,6 +1064,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: danger
+      objectReference: {fileID: 0}
     - target: {fileID: 6814491297056372350, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -1151,7 +1213,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 231bcf982309d6a438bf9eb5199a6a18, type: 2}
+  - {fileID: 2100000, guid: d93df243f80d74b4d8d3d9520d89e2c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1211,6 +1273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _rb: {fileID: 1175341046}
   _force: 200
+  _deadTime: 0.3
 --- !u!1001 &1177366611
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1225,6 +1288,10 @@ PrefabInstance:
     - target: {fileID: 489742905003137063, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_Name
       value: ring (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: danger
       objectReference: {fileID: 0}
     - target: {fileID: 5496808344007236400, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_IsActive
@@ -1404,7 +1471,7 @@ TrailRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 0.98823535, g: 0.5254902, b: 0.7137255, a: 1}
+      key0: {r: 1, g: 0, b: 0.07119036, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -1621,6 +1688,10 @@ PrefabInstance:
     - target: {fileID: 1570973149279867454, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2205154504468572447, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
+      propertyPath: m_TagString
+      value: danger
       objectReference: {fileID: 0}
     - target: {fileID: 6040644284505637114, guid: b32b0afc9b6f2c74d83939c657d24cab, type: 3}
       propertyPath: m_IsActive
